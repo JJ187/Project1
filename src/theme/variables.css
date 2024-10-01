@@ -1,0 +1,31 @@
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+/* Global Styles */
+
+/* Center the ion-title */
+
+ion-button {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  ion-title {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  
+  ion-toolbar ion-button {
+    font-weight: bold;
+  }
+  
+  /* Light background for ion-toolbar */
+  ion-toolbar {
+    --background: #f0ebb8; 
+  }
+  
+  /* Light background for ion-content */
+  ion-content {
+    --background: #dcd1da; 
+  }
+  
